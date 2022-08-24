@@ -21,6 +21,7 @@ public class BaseTest {
         chromeOptions.addArguments("--no-sandbox");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(chromeOptions);
+
         driver.get("https://demo.automationtesting.in/Index.html");
         driver.manage().window().maximize();
     }
