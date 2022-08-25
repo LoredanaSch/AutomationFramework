@@ -24,7 +24,7 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: Report.html
-        path: /home/runner/work/AutomationFramework/AutomationFramework/target/surefire-reports
+        path: /home/runner/work/AutomationFramework/AutomationFramework/target/site/index.html
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
