@@ -1,5 +1,4 @@
 Objects/FrameObject.class
-Report/TestCases.class
 Pages/BasePage.class
 Objects/AlertObject.class
 tests/TabTest.class
